@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.top{
+  height: 300px;
+  width: 150px;
+  background-color: red;
+}
+.bottom{
+  position: absolute;
+  height: 300px;
+  width: 150px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  top: 0;
+}
+.container{
+  display: inline-block;
+  width: 150px;
+  position: relative;
+  margin-right: 50px;
+}
+
+.container:hover .bottom{
+  display: none;
+}
+.row{
+  margin-bottom: 40px;
+}
